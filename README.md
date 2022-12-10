@@ -5,7 +5,6 @@
 
 ### Project Title
 bikeshare
-
 ### Description
 this project is made to analyze the data of  a bikeshare company
 
@@ -13,7 +12,6 @@ this project is made to analyze the data of  a bikeshare company
 washington.csv
 chicago.csv
 new_york_city.csv
-
 
 ### Credits
 https://stackoverflow.com/
