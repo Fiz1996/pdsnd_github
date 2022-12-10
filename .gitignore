@@ -5,3 +5,5 @@ bikeshare.csv
 washington.csv
 new_york_city.csv
 bikeshare.py.zip
+.idea
+venv
