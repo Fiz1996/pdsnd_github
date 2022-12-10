@@ -26,9 +26,8 @@ def get_filters():
             if city not in CITY_DATA.keys():
                 raise ValueError
 
-            # TODO: get user input for month (all, january, february, ... , june)
             month = input('Enter a month:').lower()
-            # TODO: get user input for day of week (all, monday, tuesday, ... sunday)
+
             day = input("Enter a day of week: ")
             print('-' * 40)
             return city, month, day
@@ -123,7 +122,6 @@ def trip_duration_stats(df):
     print('\nCalculating Trip Duration...\n')
     start_time = time.time()
 
-    # TODO: display total travel time
     total_travel_time = df['Trip Duration'].sum()
     print("total travel time is:{} ".format(total_travel_time))
 
